@@ -227,9 +227,12 @@
 
 // Classes and Objects
 
-Book book1 = new Book();
-book1.title = "Harry Potter";
-book1.author = "Jk Rowling";
-book1.pages = 400;
+// Book book1 = new Book("Harry Potter", "Jk ROwlings", 400);
 
-Console.WriteLine(book1.title);
+// Console.WriteLine(book1.title);
+
+
+// Object Methods
+
+Student student1 = new Student("Mike", "Art", 3.2);
+Student student1 = new Student("Mike", "Art", 2.8);
